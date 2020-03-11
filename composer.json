@@ -6,7 +6,15 @@
         "issues": "https://github.com/jarektkaczyk/model-locking/issues",
         "source": "https://github.com/jarektkaczyk/model-locking"
     },
-    "keywords": ["laravel", "eloquent", "ORM", "active record", "pessimistic lock", "locking", "model lock"],
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "ORM",
+        "active record",
+        "pessimistic lock",
+        "locking",
+        "model lock"
+    ],
     "authors": [
         {
             "name": "Jarek Tkaczyk",
@@ -16,9 +24,9 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "illuminate/database": "^5.5",
-        "illuminate/queue": "^5.5"
+        "php": "^7.2",
+        "illuminate/database": "^5.8|^6.0",
+        "illuminate/queue": "^5.8|^6.0"
     },
     "require-dev": {
         "kahlan/kahlan": "~2.5"
