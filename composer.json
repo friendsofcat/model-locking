@@ -1,10 +1,10 @@
 {
-    "name": "sofa/model-locking",
+    "name": "friendsofcat/model-locking",
     "description": "Pseudo pessimistic model locking with broadcasted events for Laravel Eloquent ORM.",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/jarektkaczyk/model-locking/issues",
-        "source": "https://github.com/jarektkaczyk/model-locking"
+        "issues": "https://github.com/friendsofcat/model-locking/issues",
+        "source": "https://github.com/friendsofcat/model-locking"
     },
     "keywords": [
         "laravel",
