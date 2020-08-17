@@ -10,10 +10,20 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
  * @author Jarek Tkaczyk <jarek@softonsofa.com>
  * @link https://github.com/jarektkaczyk/model-locking
  */
-abstract class LockEvent implements ShouldBroadcast
+abstract class LockEvent
 {
     use SerializesModels;
 
+    /**
+     * Delete the job if its models no longer exist.
+     *
+     * @var bool
+     */
+    public $deleteWhenMissingModels = true;
+
+    /**
+     * @var \Illuminate\Database\Eloquent\Model
+     */
     public $model;
 
     public function __construct($model)
