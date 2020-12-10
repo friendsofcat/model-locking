@@ -1,5 +1,5 @@
 {
-    "name": "friendsofcat/model-locking",
+    "name": "lacieri/model-locking",
     "description": "Pseudo pessimistic model locking with broadcasted events for Laravel Eloquent ORM.",
     "license": "MIT",
     "support": {
