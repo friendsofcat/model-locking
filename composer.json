@@ -24,9 +24,9 @@
         }
     ],
     "require": {
-        "php": "^7.2",
-        "illuminate/database": "^5.8|^6.0",
-        "illuminate/queue": "^5.8|^6.0"
+        "php": "^7.3",
+        "illuminate/database": "^5.8|^6.0|^7.0|^8.0",
+        "illuminate/queue": "^5.8|^6.0|^7.0|^8.0"
     },
     "require-dev": {
         "kahlan/kahlan": "~2.5"
